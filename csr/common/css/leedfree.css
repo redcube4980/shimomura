@@ -1,0 +1,23 @@
+.mincho p{
+	
+}
+
+.mincho p span{
+	font-size: 20px;
+	color: #00A1FF;
+}
+.yellow {
+    background: #EFD2B1 !important;
+}
+.brown {
+    background: #D7D6CE !important;
+}
+#other{
+	margin: 25px 0 0px 0 !important;
+}
+.tel {
+    font-weight: bold;
+    text-align: center;
+    background: #C7C8C8;
+    padding: 10px 0;
+}

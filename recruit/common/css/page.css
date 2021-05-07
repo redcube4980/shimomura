@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* company */
+.company h1 { padding:44px 0;width:100%;text-align:center;color:#FFF;font-size:26px;background: url(/company/images/ttl_bg.jpg) no-repeat center top; }
+
+.greeting .leadBox { margin:30px 0; }
+.greeting .copy { text-align:center;margin:0 50px; }
+.greeting .imgBox { margin:50px 0; }
+
+.location .box { margin:0 0 30px 0; }
+.location .box a.mapIcon { background:#0099FF;color:#FFF;font-size:10px;padding:3px 10px;margin:0 0 0 15px; }
+.location .col-xs-1, .location .col-sm-1, .location .col-md-1, .location .col-lg-1, .location .col-xs-2, .location .col-sm-2, .location .col-md-2, .location .col-lg-2, .location .col-xs-3, .location .col-sm-3, .location .col-md-3, .location .col-lg-3, .location .col-xs-4, .location .col-sm-4, .location .col-md-4, .location .col-lg-4, .location .col-xs-5, .location .col-sm-5, .location .col-md-5, .location .col-lg-5, .location .col-xs-6, .location .col-sm-6, .location .col-md-6, .location .col-lg-6, .location .col-xs-7, .location .col-sm-7, .location .col-md-7, .location .col-lg-7, .location .col-xs-8, .location .col-sm-8, .location .col-md-8, .location .col-lg-8, .location .col-xs-9, .location .col-sm-9, .location .col-md-9, .location .col-lg-9, .location .col-xs-10, .location .col-sm-10, .location .col-md-10, .location .col-lg-10, .location .col-xs-11, .location .col-sm-11, .location .col-md-11, .location .col-lg-11, .location .col-xs-12, .location .col-sm-12, .location .col-md-12, .location .col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.outline .imgBox { margin:30px 0 50px 0; }
+.history .imgBox { margin:30px 0 50px 0; }
+
+.ethic .copy { margin:0 0 30px 0; }
+.ethic .imgBox { margin:30px 0; }
+
+.iso .isoBox { margin:15px 0;text-align:center; }
+.iso .isoBox .text { margin:15px 0; }

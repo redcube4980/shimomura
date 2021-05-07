@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新シミュレーション</title>
+<script type="text/javascript" src="common/js/jquery-1.9.0.min.js"></script>
+<!-- jQueryUI ver1.11.4 and Plugin-->
+<script type="text/javascript" src="common/js/jqui/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="common/js/jqui/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="common/js/jqui/jquery-ui.structure.css">
+<link rel="stylesheet" type="text/css" href="common/js/jqui/jquery-ui.theme.css">
+<script type="text/javascript" src="common/js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="common/js/jquery.tmplPlus.min.js"></script>
+
+<script type="text/javascript" src="./newsimulation.js"></script>
+<style type="text/css">
+<!--
+*, html, body {
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+#enquete {
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+.enqueteSelect {
+	width: 20%;
+	padding: 6px;
+	box-sizing: border-box;
+}
+.enq_qustion {
+	padding: 4px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.enq_select {
+	width: 80%;
+	margin: 8px 0px;
+	padding: 4px;
+	font-size: 14px;
+}
+.enq_sel {
+	box-sizing: border-box;
+	text-align:center;
+}
+.enq_arrow {
+	width: 30px;
+	padding: 20px 0;
+	text-align:center;
+	box-sizing: border-box;
+}
+#result {
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+-->
+</style>
+</head>
+<body>
+	<div id="enquete" class="clearfix">
+		<div class="enqueteSelect clearfix">
+			<div id="enq_level1" class="enq_sel"></div>
+			<div id="enq_arrow1" class="enq_allow"></div>
+		</div>
+		<div class="enqueteSelect clearfix">
+			<div id="enq_level2" class="enq_sel"></div>
+			<div id="enq_arrow2" class="enq_allow"></div>
+		</div>
+		<div class="enqueteSelect clearfix">
+			<div id="enq_level3" class="enq_sel"></div>
+			<div id="enq_arrow3" class="enq_allow"></div>
+		</div>
+		<div class="enqueteSelect clearfix">
+			<div id="enq_level4" class="enq_sel"></div>
+			<div id="enq_arrow4" class="enq_allow"></div>
+		</div>
+		<div class="enqueteSelect clearfix">
+			<div id="enq_level5" class="enq_sel"></div>
+			<div id="enq_arrow5" class="enq_allow"></div>
+		</div>
+	</div>
+	<div id="result">
+		<table id="tbl_result">
+			<thead><tr><th><h2>検索結果</h2></th></tr></thead>
+			<tbody id="tbody_result">
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
