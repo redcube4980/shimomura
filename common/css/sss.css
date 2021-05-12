@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+.wrapper.sss ul {
+    padding-left: 26px;
+}
+.wrapper.sss li {
+  list-style: decimal;
+}
+.img-responsive.sss_copy {
+	height: 16px;
+	margin-bottom: 10px;
+}
+hr {
+    border-bottom: 2px solid #666;
+}@media screen and (min-width:768px){
+	.img-responsive.sss_copy {
+		height: 18px;
+}
+}
+@media screen and (min-width:900px){
+	.img-responsive.sss_copy {
+		height: 25px;
+}
+}

@@ -1,4 +1,13 @@
 ﻿var infoJSON = {
+	"29":{
+		"class" : "news",
+		"subtitle" : "ニュース",
+		"date" : "2021.05",
+		"explain" : "「残留応力」低減磨棒鋼の製造技術開発、提供体制を整えました",
+		"link" : "/products/residual-stress.html"
+	},
+
+
 	"28":{
 		"class" : "news",
 		"subtitle" : "ニュース",
