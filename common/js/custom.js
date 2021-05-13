@@ -125,8 +125,8 @@ $(function(){
 		$('#loadingLayer').remove();
 	} else {
 		setTimeout(function() {
-			$('#loadingLayer').fadeOut(1000);
-		}, 5000);
+			$('#loadingLayer').fadeOut(800);
+		}, 3000);
 	}
 	
 //    if($.cookie("access")){

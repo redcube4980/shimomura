@@ -98,8 +98,8 @@ $(function(){
 
 // グローバルナビ　アクティブ化
 $(document).ready(function() {
-  if(location.pathname != "/en/") {
-    $('.gnav a[href^="/en/' + location.pathname.replace("/en/","/").split("/")[1] + '"]').addClass('active');
+  if(location.pathname != "/") {
+    $('.gnav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
   } else $('.gnav a:eq(0)').addClass('active');
 });
 
@@ -125,8 +125,8 @@ $(function(){
 		$('#loadingLayer').remove();
 	} else {
 		setTimeout(function() {
-			$('#loadingLayer').fadeOut(1000);
-		}, 5000);
+			$('#loadingLayer').fadeOut(800);
+		}, 3000);
 	}
 	
 //    if($.cookie("access")){

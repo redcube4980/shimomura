@@ -209,8 +209,8 @@
 	background: rgba(0,135,255,0.5);
 }
 .zoomIn2 {
-  animation: translate 8s; 
-  -webkit-animation: translate 8s; /* Safari & Chrome */
+  animation: translate 5s; 
+  -webkit-animation: translate 5s; /* Safari & Chrome */
 }
 @-webkit-keyframes zoomIn {
   from {
@@ -261,10 +261,10 @@
 	border-radius: 50%;
 }
 #loadingLayer i.fly-in-out {
-	-webkit-animation: fly-in-out 3s ease-in;
-	   -moz-animation: fly-in-out 3s ease-in;
-		 -o-animation: fly-in-out 3s ease-in;
-			animation: fly-in-out 3s ease-in;
+	-webkit-animation: fly-in-out 5s ease-in;
+	   -moz-animation: fly-in-out 5s ease-in;
+		 -o-animation: fly-in-out 5s ease-in;
+			animation: fly-in-out 5s ease-in;
 }
 
 @-webkit-keyframes fly-in-out {
@@ -274,7 +274,7 @@
 		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
 		/* border-radius: 50%; */
 	}
-	15%, 85% {
+	5%, 85% {
 		color: rgba(255, 255, 255, 0.8);
 		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 		-webkit-transform: scale(1) translate3d(0, 0, 0);
@@ -355,6 +355,3 @@
 		border-radius: 50%;
 	}
 }
-
-
-
