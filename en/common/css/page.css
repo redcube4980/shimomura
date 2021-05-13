@@ -529,7 +529,7 @@
 
 .global .blockList { margin:0 0 40px 0; }
 .global .blockList .row { border-bottom:1px solid #00A3FF;padding:5px 0; }
-.global .blockList .row .ttlBox a { display:block;background:#00A3FF;color:#FFF; height:80px;margin:15px;font-size:20px;text-align:center;padding:25px 0 0 0;}
+.global .blockList .row .ttlBox { display:block;background:#00A3FF;color:#FFF; height:80px;margin:15px;font-size:20px;text-align:center;padding:25px 0 0 0;}
 .global .blockList .row .textBox { margin:15px;padding:10px 0 0 0;}
 
 
