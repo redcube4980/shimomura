@@ -1,5 +1,5 @@
 ﻿var infoJSON = {
-	"29":{
+	"31":{
 		"class" : "news",
 		"subtitle" : "ニュース",
 		"date" : "2021.05",
@@ -7,6 +7,21 @@
 		"link" : "/products/residual-stress.html"
 	},
 
+	"30":{
+		"class" : "news",
+		"subtitle" : "ニュース",
+		"date" : "2021.05",
+		"explain" : "海外拠点 Daido Shimomura Steel Manufacturing (DSST) 社を追加しました",
+		"link" : "/global/"
+	},
+	
+	"29":{
+		"class" : "news",
+		"subtitle" : "ニュース",
+		"date" : "2021.05",
+		"explain" : "析出硬化系ステンレス鋼 SUS630-Sを製品カタログと共に追加しました",
+		"link" : "/products/pdf/SUS630-S.pdf" 
+	},
 
 	"28":{
 		"class" : "news",

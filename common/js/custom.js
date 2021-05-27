@@ -125,8 +125,8 @@ $(function(){
 		$('#loadingLayer').remove();
 	} else {
 		setTimeout(function() {
-			$('#loadingLayer').fadeOut(800);
-		}, 3000);
+			$('#loadingLayer').fadeOut(400);
+		}, 1000);
 	}
 	
 //    if($.cookie("access")){
@@ -158,42 +158,42 @@ $(function(){
 	});
 });
 
-$(function(){
-	var paragraph = document.getElementsByTagName('sup')[0];
+//$(function(){
+//	var paragraph = document.getElementsByTagName('sup')[0];
 	
-	function textEffect(animationName) {
-	  var text = paragraph.innerHTML,
-			chars = text.length,
-			newText = '',
-			animation = animationName,
-			char,
-			i;
+//	function textEffect(animationName) {
+//	  var text = paragraph.innerHTML,
+//			chars = text.length,
+//			newText = '',
+//			animation = animationName,
+//			char,
+//			i;
 	
-		for (i = 0; i < chars; i += 1) {
-			newText += '<i>' + text.charAt(i) + '</i>';
-		}
+//		for (i = 0; i < chars; i += 1) {
+//			newText += '<i>' + text.charAt(i) + '</i>';
+//		}
 	
-		paragraph.innerHTML = newText;
+//		paragraph.innerHTML = newText;
 	
-		var wrappedChars = document.getElementsByTagName('i'),
-			wrappedCharsLen = wrappedChars.length,
-			j = 0;
+//		var wrappedChars = document.getElementsByTagName('i'),
+//			wrappedCharsLen = wrappedChars.length,
+//			j = 0;
 	
-		function addEffect () {
-			setTimeout(function () {
-				wrappedChars[j].className = animation;
-				j += 1;
-				if (j < wrappedCharsLen) {
-					addEffect();
-				}
-			}, 100)
-		}
+//		function addEffect () {
+//			setTimeout(function () {
+//				wrappedChars[j].className = animation;
+//				j += 1;
+//				if (j < wrappedCharsLen) {
+//					addEffect();
+//				}
+//			}, 100)
+//		}
 	
-		addEffect();
-	};
+//		addEffect();
+//	};
 	
-	if (typeof paragraph !== "undefined"){
-		textEffect('fly-in-out');
-	}
-});
+//if (typeof paragraph !== "undefined"){
+//		textEffect('fly-in-out');
+//	}
+//});
 

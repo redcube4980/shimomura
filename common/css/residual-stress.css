@@ -1,46 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
-.ul01 {
-	padding-left: 40px;
+.merit-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
 }
-#pageContents ul .li01 h3 {
-  margin: 20px 0 5px;
+.merit-box-li {
+  width: 200px;
 }
-#pageContents ul .li01 .ul02 {
-  padding: 0 0 0 12px;
-}
-#pageContents ul .li01 .ul02 .li02 {
-  list-style: disc;
-}
-#pageContents ul .li01 .ul02 .li02 span {
-  width: 140px;
-  display: inline-block;
-}
-#pageContents ul .li01 .ul02 .li02 .arrow {
-  width: auto;
-  display: inline-block;
-}
-#pageContents ul .li01 .ul02 .li02 .arrow::before {
-  content: "→";
-  margin: 0 10px;
-}
-@media (min-width: 600px){
-	.ul01 {
-		padding-left: 12px;
-	}
-}
-
-@media (min-width: 960px){
-	#pageContents ul .li01 h3 {
-		margin: 50px 0 5px;
-	}
-	.ul01 {
-		padding-left: 22px;
-	}
-	#pageContents ul .li01 .ul02 .li02 span {
-		width: 140px;
-	}
-	#pageContents ul .li01 .ul02 .li02 .arrow::before {
-		margin: 0 20px;
-	}
+.li-tittle {
+  text-align: center;
+  color: #fff;
+  background-color: #00A1FF;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
