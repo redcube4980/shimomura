@@ -302,9 +302,9 @@
 }
 
 
-.history .imgBox { margin:30px 0 50px 0;height:1617px;padding-left:120px;background: url(/en/company/images/history_img_bg.jpg) no-repeat top left; }
+.history .imgBox { margin:30px 0 50px 0;height:1617px;padding-left:120px;background: url(/company/images/history_img_bg.jpg) no-repeat top left; }
 .history .imgBox .txt01 { 
-	padding-top:71px;
+	padding-top:80px;
 	padding-top:75px\9;
  }
 .history .imgBox .txt02 { 
@@ -332,16 +332,16 @@
 .history .imgBox .txt12 { padding-top:0px; }
 .history .imgBox .txt13 { padding-top:21px; }
 .history .imgBox .txt14 { padding-top:29px; }
-.history .imgBox .txt15 { padding-top:38px; }
+.history .imgBox .txt15 { padding-top:0px; }
 .history .imgBox .txt16 { padding-top:0; }
-.history .imgBox .txt17 { padding-top:19px; }
-.history .imgBox .txt18 { padding-top:25px; }
+.history .imgBox .txt17 { padding-top:0px; }
+.history .imgBox .txt18 { padding-top:27px; }
 .history .imgBox .txt19 { padding-top:27px; }
 .history .imgBox .txt20 { padding-top:2px; }
 .history .imgBox .txt21 { padding-top: 42px; }
-.history .imgBox .txt22 { padding-top: 60px; }
-.history .imgBox .txt23 { padding-top: 73px; }
-.history .imgBox .txt24 { padding-top: 73px; }
+.history .imgBox .txt22 { padding-top: 47px; }
+.history .imgBox .txt23 { padding-top: 66px; }
+.history .imgBox .txt24 { padding-top: 66px; }
 .history .imgBox div { padding-left: 66px; text-indent: -66px; }
 .history .imgBox div span{ margin-right:20px; }
 @media (min-width: 993px) {
