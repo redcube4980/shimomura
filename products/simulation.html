@@ -22,6 +22,7 @@
 
 <!--modify start--> 
 <script src="/common/js/modal.js"></script> 
+<script src="/common/js/slick.min.js"></script>
 <!--modify end-->
 
 <link href="/common/css/normalize.css" rel="stylesheet">
@@ -384,15 +385,19 @@ table#tbl_result {
       </div>
     </div>
   </div>
-</footer><!-- footer END --><script src="/common/js/bootstrap.min.js"></script> 
-<script src="/common/js/smooth-scroll.min.js"></script> 
-<script src="/common/js/jquery.mousewheel-3.0.6.pack.js"></script> 
-<script src="/common/js/slick.min.js"></script> 
-<script src="/common/js/jquery.slicknav.min.js"></script>
-<script src="/common/js/custom.js"></script> 
-<!--modify start--> 
-<script src="/common/js/modal.js"></script> 
-<!--modify end-->
-
+</footer><!-- footer END -->
+<script>
+	// スマホナビ
+$(function(){
+	var url = window.location.pathname;
+	$('.sideMenu li a[href="'+url+'"]').parent().addClass('active');
+});
+	
+$(document).ready(function() {
+  if(location.pathname != "/") {
+    $('.gnav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+  } else $('.gnav a:eq(0)').addClass('active');
+});
+</script>
 </body>
 </html>

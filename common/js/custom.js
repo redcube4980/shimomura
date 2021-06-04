@@ -1,10 +1,10 @@
 	$(window).load(function () {
-		  hsize = $("h1 .img img").height();
-		  $("h1.indexH1").css("height", hsize + "px");
+		var hsize = $("h1 .img img").height();
+		$("h1.indexH1").css("height", hsize + "px");
 	});
 	$(window).resize(function () {
-		  hsize = $("h1 .img img").height();
-		  $("h1.indexH1").css("height", hsize + "px");
+		var hsize = $("h1 .img img").height();
+		$("h1.indexH1").css("height", hsize + "px");
 	});
 
 
@@ -18,12 +18,12 @@ $(function() {
 });
 // 保険
 $(window).load(function () {
-	  hsize = $(".img img").height();
-	  $("h1.subH1").css("height", hsize + "px");
+	var hsize = $(".img img").height();
+	$("h1.subH1").css("height", hsize + "px");
 });
 
 $(window).resize(function () {
-	hsize = $(".img img").height();
+	var hsize = $(".img img").height();
 	$("h1.subH1").css("height", hsize + "px");
 });
 
@@ -96,7 +96,6 @@ $(function(){
 	$('.sideMenu li a[href="'+url+'"]').parent().addClass('active');
 });
 
-// グローバルナビ　アクティブ化
 $(document).ready(function() {
   if(location.pathname != "/") {
     $('.gnav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
@@ -111,8 +110,8 @@ $(function () {
 
 // 
 $(function(){
-	 $('#spHeader').slicknav({
-		 easingOpen: "linear", //メニューが開く時のアニメーション
+	$('#spHeader').slicknav({
+		easingOpen: "linear", //メニューが開く時のアニメーション
 	});
 });
 
@@ -141,20 +140,19 @@ $(function(){
 // モーダル youtube 停止
 $(function(){
 	$('a, .btn').click(function () { 
-	  var idname = $(this).attr('data-target'),
-	  	  myFrame = $(idname).find('iframe'),
-	      src = myFrame.attr('src');
+		var idname = $(this).attr('data-target'),
+			myFrame = $(idname).find('iframe'),
+			src = myFrame.attr('src');
 
-	  $(idname).on('shown.bs.modal', function () {
+		$(idname).on('shown.bs.modal', function () {
 		myFrame.attr('src', src + "?autoplay=1" );
-	  });
-			
-	  $(idname).on('hidden.bs.modal', function () {
+		});
+		$(idname).on('hidden.bs.modal', function () {
 		// myFrame.removeAttr('src');
-		myFrame.attr('src', src);
-		$(idname).off('shown.bs.modal');
-		$(idname).off('hidden.bs.modal');
-	  });
+			myFrame.attr('src', src);
+			$(idname).off('shown.bs.modal');
+			$(idname).off('hidden.bs.modal');
+		});
 	});
 });
 
