@@ -127,16 +127,6 @@
 		margin-bottom: 4px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
 /**
  loadingLayer
 **/
@@ -187,20 +177,9 @@
 	margin-left: -300px;
 	z-index:60;
 }
-
-#loadingWrap sup{
-	color: #FFF;
-	text-align: center;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 90px;
-	font-weight: bold;
-	height: auto;
-	margin:0 auto;
-	position: fixed;
-	width:1000px;
-	top: 35%;
-	left: 50%;
-	margin-left: -500px;
+#loadingWrap .zoomIn2.zoomIn {
+    top: 40%;
+    font-size: 60px;
 }
 #loadingWrap #box{
 	height: 100%;
@@ -209,8 +188,8 @@
 	background: rgba(0,135,255,0.5);
 }
 .zoomIn2 {
-  animation: translate 5s; 
-  -webkit-animation: translate 5s; /* Safari & Chrome */
+  animation: translate 2s; 
+  -webkit-animation: translate 2s; /* Safari & Chrome */
 }
 @-webkit-keyframes zoomIn {
   from {
@@ -247,111 +226,4 @@
 	background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0.44) 100%); /* Opera 12+ */
 	background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0.44) 100%); /* IE10+ */
 	background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.44) 100%); /* W3C */
-}
-#loadingLayer i {
-	display: inline-block;
-	font-style: normal;
-	padding: 0 3px;
-	-webkit-transform: scale(0) translate3d(0, -2000px, 0);
-	   -moz-transform: scale(0) translate3d(0, -2000px, 0);
-		-ms-transform: scale(0) translate3d(0, -2000px, 0);
-		 -o-transform: scale(0) translate3d(0, -2000px, 0);
-			transform: scale(0) translate3d(0, -2000px, 0);
-	background: rgba(255, 255, 255, 0.3);
-	border-radius: 50%;
-}
-#loadingLayer i.fly-in-out {
-	-webkit-animation: fly-in-out 5s ease-in;
-	   -moz-animation: fly-in-out 5s ease-in;
-		 -o-animation: fly-in-out 5s ease-in;
-			animation: fly-in-out 5s ease-in;
-}
-
-@-webkit-keyframes fly-in-out {
-	0% {
-		-webkit-transform: scale(0) translate3d(0, -1000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		/* border-radius: 50%; */
-	}
-	5%, 85% {
-		color: rgba(255, 255, 255, 0.8);
-		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-		-webkit-transform: scale(1) translate3d(0, 0, 0);
-		background: transparent;
-		box-shadow: none;
-	}
-	100% {
-		color: transparent;	
-		-webkit-transform: scale(0) translate3d(0, 1000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		/* border-radius: 50%; */
-	}
-}
-@-moz-keyframes fly-in-out {
-	0% {
-		-moz-transform: scale(0) translate3d(0, -2000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		border-radius: 50%;
-	}
-	15%, 85% {
-		color: rgba(255, 255, 255, 0.8);
-		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-		-moz-transform: scale(1) translate3d(0, 0, 0);
-		background: transparent;
-		box-shadow: none;
-	}
-	100% {
-		color: transparent;	
-		-moz-transform: scale(0) translate3d(0, 2000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		border-radius: 50%;
-	}
-}
-@-o-keyframes fly-in-out {
-	0% {
-		-o-transform: scale(0) translate3d(0, -2000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		border-radius: 50%;
-	}
-	15%, 85% {
-		color: rgba(255, 255, 255, 0.8);
-		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-		-o-transform: scale(1) translate3d(0, 0, 0);
-		background: transparent;
-		box-shadow: none;
-	}
-	100% {
-		color: transparent;	
-		-o-transform: scale(0) translate3d(0, 2000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		border-radius: 50%;
-	}
-}
-@keyframes fly-in-out {
-	0% {
-		transform: scale(0) translate3d(0, -2000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		border-radius: 50%;
-	}
-	15%, 85% {
-		color: rgba(255, 255, 255, 0.8);
-		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-		transform: scale(1) translate3d(0, 0, 0);
-		background: transparent;
-		box-shadow: none;
-	}
-	100% {
-		color: transparent;	
-		transform: scale(0) translate3d(0, 2000px, 0);
-		background: rgba(255, 255, 255, 0.3);
-		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
-		border-radius: 50%;
-	}
 }

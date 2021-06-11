@@ -18,8 +18,8 @@ $(function() {
 });
 // 保険
 $(window).load(function () {
-	  hsize = $(".img img").height();
-	  $("h1.subH1").css("height", hsize + "px");
+	hsize = $(".img img").height();
+	$("h1.subH1").css("height", hsize + "px");
 });
 
 $(window).resize(function () {
@@ -125,8 +125,8 @@ $(function(){
 		$('#loadingLayer').remove();
 	} else {
 		setTimeout(function() {
-			$('#loadingLayer').fadeOut(800);
-		}, 3000);
+			$('#loadingLayer').fadeOut(400);
+		}, 1000);
 	}
 	
 //    if($.cookie("access")){
